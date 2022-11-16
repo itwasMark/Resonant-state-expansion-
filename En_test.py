@@ -30,14 +30,13 @@ B = Bn(a,epsilon_s,n)
 
 E_i = Ei(A,k,n,zi) # E_n array for z in range [-3a,-a)
 E_m = Em(B,k,n,zm,epsilon_s) # E_n array for z in range [-a,a)
-
-####Problem here
 E_f = Ef(A,k,zf) 
-########################
+
 
 
 
 plt.plot(zi, E_i,'o') # Plot E_i for -3a to -a
 plt.plot(zm, E_m) # Plot E_m for -a to a
 plt.plot(zf, E_f,'o') # Plot E_f for a to 3a
-
+###############################################################################
+#   Green's approach test.
